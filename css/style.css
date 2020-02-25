@@ -1,0 +1,120 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+li,
+span {
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+    list-style: none;
+}
+header {
+    background-color: #273d70;
+    display: table;
+    width: 100%;
+    height: 150px;
+    border-top: 2px solid #dedede;
+}
+.top-header .logo {
+    float: left;
+}
+.top-header .logo img {
+    width: 120px;
+}
+.top-header {
+    display: table;
+    width: 100%;
+    padding: 15px 0px;
+}
+.top-header nav {
+    float: left;
+    margin-left: 30px;
+}
+.top-header nav ul li {
+    float: left;
+    line-height: 42px;
+    margin: 0px 10px;
+}
+.top-header nav ul li a {
+    color: #fff;
+}
+.top-header nav ul li a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #cbce70;
+}
+.top-head-right {
+    float: right;
+}
+.top-head-right ul li:nth-child(1) {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 5px 20px;
+}
+.top-head-right ul li {
+    float: left;
+}
+.top-head-right ul li.user-name {
+    margin-left: 15px;
+    color: #fff;
+}
+.top-head-right ul li.user-name span i {
+    font-size: 24px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 0px 8px;
+    line-height: 25px;
+    margin-right: 8px;
+}
+.top-head-right ul li.user-name span i:before {
+    font-size: 18px;
+}
+.low-header {
+    display: table;
+    width: 100%;
+}
+.low-header nav {
+    float: left;
+}
+.low-header nav ul li {
+    float: left;
+    line-height: 30px;
+    margin: 0px 15px 0px 0px;
+}
+.low-header nav ul li a {
+    color: #b3bbcc;
+    text-transform: uppercase;
+}
+.low-header nav ul li a:hover {
+    text-decoration: none;
+    border-bottom: 2px solid #cbce70;
+}
+header form {
+    display: table;
+    width: 100%;
+    margin: 15px 0;
+}
+header form input {
+    width: 85%;
+    background: #fff;
+    height: 40px;
+    border-radius: 5px 0px 0px 5px;
+    border: 0px;
+    padding: 0px 15px;
+    float: left;
+}
+header form button {
+    float: left;
+    background: #b6527b;
+    width: 15%;
+    height: 40px;
+    border: 0px;
+    border-radius: 0px 5px 5px 0px;
+    color: #fff;
+}
