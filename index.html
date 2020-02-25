@@ -14,7 +14,7 @@
 </head>
 
 <body>
-  <header>
+<header>
     <div class="container">
       <div class="top-header">
         <div class="logo">
@@ -77,5 +77,91 @@
       </form>
     </div>
 </header>
+  <section class="middle-content">
+    <div class="adv">
+      <p>Novidade! HURB CASH, Sua Viagem pre-paga. <span>Clique AQui </span> e Saiba Mais</p>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="row">
+            <div id='el'></div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="product-detail">
+            <h1>
+              <span>Orlando, USA </span>
+              Pacote Orlando + Miami - 2020
+              <span>Passagem Aerea + Hospedagem + Alguel de Carro </span> 
+            </h1>
+            <p class="weather">
+              <img src="img/sunset.png" /> <b>7</b> OU <b>11</b> diarias</p>
+            <p class="phone-n"> <i class="fa fa-phone" aria-hidden="true"></i>
+              Reserve on-line OU ligue 4020 7754</p>
+            <ul class="s-list">
+              <li>
+                <img src="img/icon1.png">Apartmnento</li>
+              <li>
+                <img src="img/icon2.png">Alguel de Carro</li>
+              <li>
+                <img src="img/icon-3.png">Passagem Aerea</li>
+            </ul>
+            <div class="detail-bottom">
+              <ul>
+                <li>
+                  <div class="ticket-amt">
+                    <h3>Escolha Sua Data <span>Saiba Mais</span></h3>
+                    <p>Entre o Periodo de:</p>
+                    <div class="date">
+                      <p><b>01</b>  <span>Mar </br>2020 </span>
+                      </p>
+                      <p><i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                      </p>
+                      <p><b>30</b>  <span>Nov </br>2020 </span>
+                      </p>
+                    </div>
+                  </div>
+                  <button>Escolher Opcao</button>
+                </li>
+                <li> <span class="discount">-50%</span>
+                  <div class="amt-total">
+                    <p> <span>A partir de <b>R$4598</b></span>
+                    </p>
+                    <p> <span>R$<b>2299</b> </span>
+                      <span class="amt-d">Preco final! <span>Em ate 12x</span></span>
+                    </p>
+                    <p class="cancel-info"><i class="fa fa-check" aria-hidden="true"></i> Cancelamento Gratis</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Optional JavaScript -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/zoomy.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script>
+    var urls = [
+            'https://source.unsplash.com/h0s58n-8R6w/600x350',
+            'https://source.unsplash.com/jQ2_DWnIX7Y/600x350',
+            'https://source.unsplash.com/u4gwRbr2_j0/600x350'
+        ];
+        var options = {
+            
+        };
+        $('#el').zoomy(urls,options);
+  </script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+          $(".menu-toggle a").click(function(){ 
+            $(".menu").toggle(500);
+          });
+        });
+  </script>
 </body>
 </html>
